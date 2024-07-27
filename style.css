@@ -91,7 +91,7 @@ label {
 }
 
 .bg-image {
-  background-image: url("../IMG/home/main.jpg");
+  background-image: url("IMG/home/main.jpg");
 }
 
 .nav::after {
