@@ -1,0 +1,43 @@
+/* .nav::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  display: block;
+  background-color: red;
+  transition: 0.3s;
+}
+
+.nav:hover::after {
+  width: 100%;
+} */
+.nav::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: red;
+  transition: width 0.3s, left 0.3s;
+  position: relative;
+  bottom: 0;
+  left: 50%; /* Start from the center */
+}
+
+.nav:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.social img {
+  filter: contrast(125%);
+
+  /* background-color: white; */
+}
+
+button:active {
+  position: relative;
+  top: 2px;
+}
+.buttons:active {
+  position: relative;
+  top: 2px;
+}

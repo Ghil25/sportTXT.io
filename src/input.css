@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  h1 {
+    @apply font-extrabold sm:text-[40px] md:text-[55px] text-[25px] tracking-[1px] leading-snug;
+  }
+  h2 {
+    @apply font-extrabold text-[25px] sm:text-[40px]  text-mfont leading-tight;
+  }
+  h3 {
+    @apply font-extrabold text-[20px] sm:text-[28px]  text-mfont leading-tight;
+  }
+  p {
+    @apply font-medium text-[12px] sm:text-[16px] text-mfont-secondary leading-tight;
+  }
+  label {
+    @apply font-medium text-[15px] sm:text-[20px] text-mfont-secondary leading-tight;
+  }
+}
+
+@layer components {
+  .margin-x {
+    @apply mx-[20px] sm:mx-[62px] md:mx-[104px] lg:mx-[146px] xl:mx-[188px];
+  }
+  .bg-image {
+    background-image: url("../IMG/home/main.jpg");
+  }
+}

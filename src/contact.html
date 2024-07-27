@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>SportsTXT | ContactUs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="h-[64px]">
+      <div
+        class="w-full fixed right-0 top-0 left-0 main-nav shadow-slate-300 z-50 bg-white"
+      >
+        <div
+          class="s887:mx-auto mx-auto s1440:w-[74%] md:w-[85%] s1105:w-[80%] w-full py-20 md:px-0 px-10 flex justify-between items-center"
+        >
+          <div>
+            <img
+              src="../IMG/logo first/logo.png"
+              class="s887:min-w-[263px] w-[199px] h-[44px] s887:min-h-[36px]"
+              alt=""
+            />
+          </div>
+          <div class="s887:block hidden">
+            <ul
+              class="flex flex-row gap-[20px] font-semibold text-mbg-secondary items-center relative"
+            >
+              <li class="nav"><a href="index.html">Home</a></li>
+              <li class="nav"><a href="features.html">Features</a></li>
+              <li class="nav"><a href="about.html">About Us</a></li>
+              <li
+                class="w-[127px] h-[38px] bg-mbg-primary rounded-[15px] text-white flex justify-center items-center hover:bg-mbg-secondary transition duration-100 cursor-pointer buttons"
+              >
+                <a href="">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="relative burger s887:hidden">
+            <div
+              class="w-[44px] h-[33px] flex flex-col justify-between cursor-pointer hover:opacity-[80%]"
+            >
+              <div class="w-[43px] h-[6px] bg-mbg-primary"></div>
+              <div class="w-[43px] h-[6px] bg-mbg-primary"></div>
+              <div class="w-[43px] h-[6px] bg-mbg-primary"></div>
+              <div class="w-[43px] h-[6px] bg-mbg-primary"></div>
+            </div>
+            <div
+              class="absolute md:hidden bg-white shadow-md shadow-gray-300 shad z-50 top-[36px] right-[0px] w-[340px] flex justify-end items-end pr-5 hidden burger-nav"
+            >
+              <ul
+                class="flex flex-col font-semibold text-[20px] text-mbg-secondary items-end my-[20px] relative"
+              >
+                <li class="nav"><a href="index.html">Home</a></li>
+                <li class="nav"><a href="features.html">Features</a></li>
+                <li class="nav"><a href="about.html">About Us</a></li>
+                <li class="nav">
+                  <a href="">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main -->
+    <main class="px-10 s1105:px-0 mx-auto w-full s1105:w-[1105px]">
+      <section
+        class="w-full h-auto flex flex-col items-center min-w-[320px] s1000:mx-auto mt-[100px] s700:mt-[150px]"
+      >
+        <h1>Contact Us</h1>
+        <div class="mt-[45px]">
+          <form
+            action=""
+            method="post"
+            class="flex flex-col text-[23px] w-[320px] s550:w-[524px]"
+          >
+            <label for="" class="font-semibold mb-10">Name</label>
+            <input
+              type="text"
+              class="w-full s550:h-[75px] h-[50px] border-2 border-[#b3cee5] rounded-[10px] mb-20 s550:mb-30 hover:border-[#71b6f3] focus:outline-[#71b6f3]"
+            />
+
+            <label for="" class="font-semibold mb-10">Email</label>
+            <input
+              type="text"
+              class="w-full s550:h-[75px] h-[50px] border-2 border-[#b3cee5] rounded-[10px] mb-20 s550:mb-30 hover:border-[#71b6f3] focus:outline-[#71b6f3]"
+            />
+
+            <label for="" class="font-semibold mb-10">Phone</label>
+            <input
+              type="text"
+              class="w-full s550:h-[75px] h-[50px] border-2 border-[#b3cee5] rounded-[10px] mb-20 s550:mb-30 hover:border-[#71b6f3] focus:outline-[#71b6f3]"
+            />
+
+            <label for="" class="font-semibold mb-10">Industry</label>
+            <input
+              type="text"
+              class="w-full s550:h-[75px] h-[50px] border-2 border-[#b3cee5] rounded-[10px] mb-20 s550:mb-30 hover:border-[#71b6f3] focus:outline-[#71b6f3]"
+            />
+
+            <label for="" class="font-semibold mb-10">Message</label>
+            <textarea
+              name=""
+              id=""
+              class="w-full s550:h-[200px] h-[150px] border-2 border-[#b3cee5] rounded-[10px] mb-20 s550:mb-30 hover:border-[#71b6f3] focus:outline-[#71b6f3]"
+            ></textarea>
+
+            <button
+              type="submit"
+              class="bg-mbg-primary text-white rounded-[15px] text-[15px] sm:text-[28px] font-semibold w-full s550:h-[70px] h-[50px] hover:bg-mbg-secondary transition-color duration-100"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="mt-[180px]">
+        <div class="text-center flex flex-col items-center">
+          <h3 class="mb-10">Amsterdam office</h3>
+          <p class="mb-[50px]">
+            NMS PRODUCTIONS EUROPE B.V.Herengracht 257, 1016 BJ, Amsterdam, The
+            Netherlands
+          </p>
+          <img
+            src="../IMG/logo first/nms.png"
+            alt=""
+            class="w-[255px] h-[50px] mb-10"
+          />
+          <p>NMS PRODUCTIONS EUROPE B.V.</p>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+
+    <footer
+      class="w-screen xl:h-[303px] h-[225px] bg-[#020202] opacity-90 mt-[80px] sm:mt-[250px] m-0"
+    >
+      <div
+        class="s1440:mx-auto margin-x flex flex-col justify-start xl:flex-row xl:justify-between xl:items-start s1440:w-[1064px]"
+      >
+        <div class="w-full h-full flex flex-col xl:items-center mt-20">
+          <div class="flex justify-center flex-col items-center w-full">
+            <!-- <hr
+              class="border-t-2 border-mbg-primary w-[600px] transform translate-y-[22px] relative z-10"
+            /> -->
+            <div
+              class="border-t-2 border-mbg-primary w-[300px] s550:w-[500px] s650:w-[600px] s400:w-[350px] transform translate-y-[22px] relative z-10"
+            ></div>
+            <div
+              class="flex flex-row gap-[12px] items-center bg-[#020202] mt-[10px] relative z-20 px-5 social"
+            >
+              <img
+                src="../IMG/logo socials/b-fb.png"
+                class="w-[29px] h-[23px] bg-white hover:bg-mbg-primary cursor-pointer"
+                alt=""
+              />
+              <img
+                src="../IMG/logo socials/b-twitter.png"
+                class="w-[29px] h-[23px] bg-white hover:bg-mbg-primary cursor-pointer"
+                alt=""
+              />
+              <img
+                src="../IMG/logo socials/b-ig.png"
+                class="w-[29px] h-[23px] bg-white hover:bg-mbg-primary cursor-pointer"
+                alt=""
+              />
+              <img
+                src="../IMG/logo socials/b-mail.png"
+                class="w-[29px] h-[23px] bg-white hover:bg-mbg-primary cursor-pointer"
+                alt=""
+              />
+            </div>
+            <div class="w-[300px] h-[50px] mt-[20px]">
+              <img
+                src="../IMG/logo first/logo.png"
+                class="w-full h-full contrast-125"
+                alt=""
+              />
+            </div>
+            <div class="mt-[10px]">
+              <ul
+                class="flex flex-row gap-[20px] font-semibold text-mbg-secondary items-center"
+              >
+                <li class="">
+                  <a
+                    href=""
+                    class="hover:text-mbg-primary border-r-[0.5px] border-gray-300 pr-5"
+                    >Privacy</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="hover:text-mbg-primary border-r-[0.5px] border-gray-300 pr-5"
+                    >Terms</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="hover:text-mbg-primary">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <p
+      class="font-bold fixed text-[20px] text-green-500 stickk left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50"
+    >
+      0
+    </p>
+    <p
+      class="font-bold fixed text-[20px] text-green-500 stickkk left-1/2 top-1/3 transform -translate-x-1/3 -translate-y-1/4 z-50"
+    >
+      0
+    </p> -->
+
+    <script>
+      const a1 = document.querySelector(".stickk");
+      const a3 = document.querySelector(".stickkk");
+      window.addEventListener("resize", function () {
+        const b2 = window.innerWidth;
+        a1.innerText = b2;
+      });
+      window.addEventListener("scroll", () => {
+        const b3 = window.scrollY;
+        a3.innerText = b3;
+      });
+    </script>
+    <script src="./app.js"></script>
+  </body>
+</html>
