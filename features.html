@@ -21,20 +21,19 @@
   <body>
     <!-- nav -->
     <nav class="h-[64px]">
-      <div
-        class="w-full fixed right-0 top-0 left-0 main-nav shadow-slate-300 z-50 bg-white"
-      >
+      <div class="w-full fixed top-0 left-0 right-0 main-nav z-50 bg-white">
         <div
-          class="s887:mx-auto mx-auto s1440:w-[74%] md:w-[85%] s1105:w-[80%] w-full py-20 md:px-0 px-10 flex justify-between items-center"
+          class="mx-auto s1440:w-[74%] md:w-[85%] s1105:w-[80%] w-full py-20 md:px-0 px-10 flex justify-between items-center"
         >
           <div>
-            <img
-              src="IMG/logo first/logo.png"
-              class="s887:min-w-[263px] w-[199px] h-[44px] s887:min-h-[36px]"
-              alt=""
-            />
+            <a href="index.html"
+              ><img
+                src="IMG/logo first/logo.png"
+                class="s887:min-w-[263px] w-[199px] h-[44px] s887:min-h-[36px]"
+                alt=""
+            /></a>
           </div>
-          <div class="s887:block hidden">
+          <div class="s650:block hidden">
             <ul
               class="flex flex-row gap-[20px] font-semibold text-mbg-secondary items-center relative"
             >
@@ -49,7 +48,7 @@
             </ul>
           </div>
 
-          <div class="relative burger s887:hidden">
+          <div class="relative burger block s650:hidden">
             <div
               class="w-[44px] h-[33px] flex flex-col justify-between cursor-pointer hover:opacity-[80%]"
             >
@@ -58,35 +57,36 @@
               <div class="w-[43px] h-[6px] bg-mbg-primary"></div>
               <div class="w-[43px] h-[6px] bg-mbg-primary"></div>
             </div>
-            <div
-              class="absolute md:hidden bg-white shadow-md shadow-gray-300 shad z-50 top-[36px] right-[0px] w-[340px] flex justify-end items-end pr-5 hidden burger-nav"
-            >
-              <ul
-                class="flex flex-col font-semibold text-[20px] text-mbg-secondary items-end my-[20px] relative"
-              >
-                <li class="nav"><a href="index.html">Home</a></li>
-                <li class="nav"><a href="features.html">Features</a></li>
-                <li class="nav"><a href="about.html">About Us</a></li>
-                <li class="nav">
-                  <a href="contact.html">Contact Us</a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
     </nav>
-
+    <div
+      class="fixed w-full s650:hidden bg-white shadow-md shadow-slate-300 z-50 top-[70px] w-[340px] flex justify-end items-end pr-5 hidden burger-nav"
+    >
+      <ul
+        class="flex flex-col font-semibold text-[20px] text-mbg-secondary items-end my-[20px] relative"
+      >
+        <li class="nav"><a href="index.html">Home</a></li>
+        <li class="nav"><a href="features.html">Features</a></li>
+        <li class="nav"><a href="about.html">About Us</a></li>
+        <li class="nav">
+          <a href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
     <!-- main -->
     <main class="px-10 s1105:px-0 mx-auto w-full s1105:w-[1105px]">
       <section
-        class="w-full h-auto flex flex-col items-center min-w-[320px] s1000:mx-auto mt-[100px] s700:mt-[150px] m2"
+        class="w-full h-auto flex flex-col items-center min-w-[320px] s1000:mx-auto mt-[100px] s700:mt-[150px] m2 overflow-y-hidden"
       >
-        <h1 class="anim1 translate-y-[-100px] opacity-0 duration-500">
+        <h1
+          class="anim1 translate-y-[-100px] opacity-0 duration-[1000ms] font-extrabold"
+        >
           Features
         </h1>
         <p
-          class="font-bold text-center min-w-[320px] translate-y-[100px] opacity-0 duration-500 anim2"
+          class="font-bold text-center min-w-[320px] translate-y-[100px] opacity-0 duration-[1500ms] anim2"
         >
           On SportsTXT, you’ll find a great mix of features enabling sports
           clubs and athletes to connect directly with their fans.
@@ -98,20 +98,20 @@
         class="w-full h-auto flex flex-col items-center s700:flex-row s700:justify-between min-w-[320px] mt-[100px] flex-wrap s740:px-20 s700:mt-[280px] s5"
       >
         <div
-          class="w-1/2 min-w-[320px] max-w-540px translate-x-[-200px] opacity-0 duration-500 anim1"
+          class="w-1/2 min-w-[320px] max-w-540px translate-x-[-200px] opacity-0 duration-[1500ms] anim1"
         >
           <img
-            src="IMG/features/fanzone.jpg"
+            src="../IMG/features/fanzone.jpg"
             alt=""
             class="rounded-[15px] shadow-slate-600 shadow-lg contrast-[140%] brightness-[0.7]"
           />
         </div>
         <div class="flex justify-start s700:ml-20">
           <div class="w-[320px] max-w-[432px] s700:mt-0 mt-20 mb-10 s700:mb-20">
-            <h2 class="translate-x-[200px] opacity-0 duration-500 anim2">
+            <h2 class="translate-x-[200px] opacity-0 duration-[1000ms] anim2">
               Fanzone
             </h2>
-            <p class="translate-x-[-200px] opacity-0 duration-700 anim3">
+            <p class="translate-x-[-200px] opacity-0 duration-[1200ms] anim3">
               Empower your supporters in the Fanzone, a moderated platform for
               interaction and involvement. Fans can create public and private
               subgroups for sharing content and building a supportive community.
@@ -130,7 +130,7 @@
           class="w-1/2 min-w-[320px] max-w-540px translate-y-[-300px] opacity-0 duration-[1500ms] anim1"
         >
           <img
-            src="IMG/features/video.jpg"
+            src="../IMG/features/video.jpg"
             alt=""
             class="rounded-[15px] shadow-slate-600 shadow-lg contrast-[140%] brightness-[0.7]"
           />
@@ -156,10 +156,10 @@
       >
         <div class="flex justify-start s700:ml-20">
           <div class="w-[320px] max-w-[432px] s700:mt-0 mt-20 mb-10 s700:mb-20">
-            <h2 class="translate-x-[200px] opacity-0 duration-500 anim2">
+            <h2 class="translate-x-[200px] opacity-0 duration-[1000ms] anim2">
               Podcast
             </h2>
-            <p class="translate-x-[200px] opacity-0 duration-700 anim3">
+            <p class="translate-x-[200px] opacity-0 duration-[1200ms] anim3">
               Weekly updates, interviews, or tip of the week? Record a podcast
               on your phone and share it with your community.
             </p>
@@ -169,7 +169,7 @@
           class="w-1/2 min-w-[320px] max-w-540px translate-x-[-300px] opacity-0 duration-[1500ms] anim1"
         >
           <img
-            src="IMG/features/podcast.jpg"
+            src="../IMG/features/podcast.jpg"
             alt=""
             class="rounded-[15px] shadow-slate-600 shadow-lg contrast-[140%] brightness-[0.7]"
           />
@@ -182,10 +182,10 @@
       >
         <div class="flex justify-start s700:ml-20">
           <div class="w-[320px] max-w-[432px] s700:mt-0 mt-20 mb-10 s700:mb-20">
-            <h2 class="translate-x-[-200px] opacity-0 duration-500 anim2">
+            <h2 class="translate-x-[-200px] opacity-0 duration-[1000ms] anim2">
               SMS
             </h2>
-            <p class="translate-x-[-200px] opacity-0 duration-700 anim3">
+            <p class="translate-x-[-200px] opacity-0 duration-[1200ms] anim3">
               Want to get your fans instantly involved with the latest updates?
               Send personalized SMS messages straight to your members' phones
               and show them that you value their membership.
@@ -196,7 +196,7 @@
           class="w-1/2 min-w-[320px] max-w-540px translate-y-[-300px] opacity-0 duration-[1500ms] anim1"
         >
           <img
-            src="IMG/features/sms.jpg"
+            src="../IMG/features/sms.jpg"
             alt=""
             class="rounded-[15px] shadow-slate-600 shadow-lg contrast-[140%] brightness-[0.7]"
           />
@@ -209,10 +209,10 @@
       >
         <div class="flex justify-start s700:ml-20">
           <div class="w-[320px] max-w-[432px] s700:mt-0 mt-20 mb-10 s700:mb-20">
-            <h2 class="translate-x-[200px] opacity-0 duration-500 anim2">
+            <h2 class="translate-x-[200px] opacity-0 duration-[1000ms] anim2">
               Polls
             </h2>
-            <p class="translate-x-[200px] opacity-0 duration-700 anim3">
+            <p class="translate-x-[200px] opacity-0 duration-[1200ms] anim3">
               Get real-time feedback from your fans. Ask questions and test
               their knowledge with our online quizzes and voting features.
             </p>
@@ -220,7 +220,7 @@
         </div>
         <div class="w-1/2 min-w-[320px] max-w-540px">
           <img
-            src="IMG/features/polls.jpg"
+            src="../IMG/features/polls.jpg"
             alt=""
             class="rounded-[15px] shadow-slate-600 shadow-lg contrast-[140%] brightness-[0.7] translate-x-[-300px] opacity-0 duration-[1500ms] anim1"
           />
@@ -233,10 +233,10 @@
       >
         <div class="flex justify-start s700:ml-20">
           <div class="w-[320px] max-w-[432px] s700:mt-0 mt-20 mb-10 s700:mb-20">
-            <h2 class="translate-x-[-200px] opacity-0 duration-500 anim2">
+            <h2 class="translate-x-[-200px] opacity-0 duration-[1000ms] anim2">
               Photo
             </h2>
-            <p class="translate-x-[-200px] opacity-0 duration-700 anim3">
+            <p class="translate-x-[-200px] opacity-0 duration-[1200ms] anim3">
               Publish photos from, games, training sessions or events. There’s
               no limit to how much you choose to share. Make it more personal by
               adding emojis, customizing colors and including text. It’s a great
@@ -245,10 +245,10 @@
           </div>
         </div>
         <div
-          class="w-1/2 min-w-[320px] max-w-540px translate-x-[400px] opacity-0 duration-[700ms] anim1"
+          class="w-1/2 min-w-[320px] max-w-540px translate-x-[400px] opacity-0 duration-[1500ms] anim1"
         >
           <img
-            src="IMG/features/photo.jpg"
+            src="../IMG/features/photo.jpg"
             alt=""
             class="rounded-[15px] shadow-slate-600 shadow-lg contrast-[140%] brightness-[0.7]"
           />
@@ -257,9 +257,9 @@
     </main>
     <!-- footer -->
     <section
-      class="mx-auto h-[388px] w-[323px] sm:w-[500px] xl:w-[80%] s700:mt-[280px] mt-100 flex flex-col-reverse xl:flex-row xl:justify-between xl:items-start s1440:w-[1064px]"
+      class="mx-auto h-[388px] w-[323px] sm:w-[500px] sm:h-auto xl:w-[80%] s700:mt-[280px] mt-100 flex flex-col-reverse xl:flex-row xl:justify-between xl:items-start s1440:w-[1064px]"
     >
-      <div class="mt-20 xl:w-[41%]">
+      <div class="mt-20 xl:w-[41%] sm:h-auto">
         <h2>Get in <span class="text-red-600">Touch</span></h2>
         <p class="mt-10 mb-15 leading-normal lg:text-[28px] text-[20px]">
           Build A Unified Community with SportsTXT
@@ -273,7 +273,7 @@
       <div class="h-[203px] sm:h-[300px] w-full xl:w-[50%] xl:h-full">
         <img
           src="IMG/home/getintouch.jpg"
-          class="w-full h-full rounded-[10px] contrast-110 brightness-[0.8]"
+          class="w-full h-full rounded-[10px] shadow-slate-300 shadow-lg contrast-[140%] brightness-[0.8]"
           alt=""
         />
       </div>
@@ -282,7 +282,7 @@
       class="w-screen xl:h-[303px] h-[225px] bg-[#020202] opacity-90 mt-[80px] sm:mt-[250px] m-0 flex justify-center"
     >
       <div
-        class="s1440:mx-auto margin-x flex flex-col justify-start xl:flex-row xl:justify-between xl:items-start s1440:w-[1064px]"
+        class="s1440:mx-auto margin-x flex flex-col justify-start xl:flex-row xl:justify-between xl:items-start s1440:w-[1064px] overflow-y-hidden"
       >
         <div class="w-full h-full flex flex-col xl:items-center mt-20">
           <div class="flex justify-center flex-col items-center w-full">
@@ -296,29 +296,29 @@
               class="flex flex-row gap-[12px] items-center bg-[#020202] mt-[10px] relative z-20 px-5 social"
             >
               <img
-                src="IMG/logo socials/b-fb.png"
+                src="../IMG/logo socials/b-fb.png"
                 class="w-[29px] h-[23px] bg-white hover:bg-mbg-primary cursor-pointer"
                 alt=""
               />
               <img
-                src="IMG/logo socials/b-twitter.png"
+                src="../IMG/logo socials/b-twitter.png"
                 class="w-[29px] h-[23px] bg-white hover:bg-mbg-primary cursor-pointer"
                 alt=""
               />
               <img
-                src="IMG/logo socials/b-ig.png"
+                src="../IMG/logo socials/b-ig.png"
                 class="w-[29px] h-[23px] bg-white hover:bg-mbg-primary cursor-pointer"
                 alt=""
               />
               <img
-                src="IMG/logo socials/b-mail.png"
+                src="../IMG/logo socials/b-mail.png"
                 class="w-[29px] h-[23px] bg-white hover:bg-mbg-primary cursor-pointer"
                 alt=""
               />
             </div>
             <div class="w-[300px] h-[50px] mt-[20px]">
               <img
-                src="IMG/logo first/logo.png"
+                src="../IMG/logo first/logo.png"
                 class="w-full h-full contrast-125"
                 alt=""
               />
@@ -350,8 +350,8 @@
         </div>
       </div>
     </footer>
-
-    <!-- <p
+    <!-- 
+    <p
       class="font-bold fixed text-[20px] text-green-500 stickk left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50"
     >
       0
@@ -362,20 +362,7 @@
       0
     </p> -->
 
-    <script>
-      const aa1 = document.querySelector(".stickk");
-      const aa3 = document.querySelector(".stickkk");
-      window.addEventListener("resize", function () {
-        const bb2 = window.innerWidth;
-
-        aa1.innerText = bb2;
-      });
-      window.addEventListener("scroll", () => {
-        const bb3 = window.scrollY;
-
-        aa3.innerText = bb3;
-      });
-    </script>
     <script src="./app.js"></script>
+    <script src="nav.js"></script>
   </body>
 </html>
