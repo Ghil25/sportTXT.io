@@ -118,11 +118,4 @@ label {
   /* background-color: white; */
 }
 
-button:active {
-  position: relative;
-  top: 2px;
-}
-.buttons:active {
-  position: relative;
-  top: 2px;
-}
+
