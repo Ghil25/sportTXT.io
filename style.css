@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box !important;
-  overflow-x: hidden !important;
+  overflow-x: hidden;
 }
 
 body {
