@@ -19,20 +19,19 @@
   <body>
     <!-- nav -->
     <nav class="h-[64px]">
-      <div
-        class="w-full fixed right-0 top-0 left-0 main-nav shadow-slate-300 z-50 bg-white"
-      >
+      <div class="w-full fixed top-0 left-0 right-0 main-nav z-50 bg-white">
         <div
-          class="s887:mx-auto mx-auto s1440:w-[74%] md:w-[85%] s1105:w-[80%] w-full py-20 md:px-0 px-10 flex justify-between items-center"
+          class="mx-auto s1440:w-[74%] md:w-[85%] s1105:w-[80%] w-full py-20 md:px-0 px-10 flex justify-between items-center"
         >
           <div>
-            <img
-              src="IMG/logo first/logo.png"
-              class="s887:min-w-[263px] w-[199px] h-[44px] s887:min-h-[36px]"
-              alt=""
-            />
+            <a href="index.html"
+              ><img
+                src="IMG/logo first/logo.png"
+                class="s887:min-w-[263px] w-[199px] h-[44px] s887:min-h-[36px]"
+                alt=""
+            /></a>
           </div>
-          <div class="s887:block hidden">
+          <div class="s650:block hidden">
             <ul
               class="flex flex-row gap-[20px] font-semibold text-mbg-secondary items-center relative"
             >
@@ -40,14 +39,14 @@
               <li class="nav"><a href="features.html">Features</a></li>
               <li class="nav"><a href="about.html">About Us</a></li>
               <li
-                class="w-[127px] h-[38px] bg-mbg-primary rounded-[15px] text-white flex justify-center items-center hover:bg-mbg-secondary transition duration-100 cursor-pointer buttons"
+                class="w-[127px] h-[38px] bg-mbg-primary rounded-[15px] text-white flex justify-center items-center hover:bg-mbg-secondary transition duration-300 cursor-pointer"
               >
-                <a href="">Contact Us</a>
+                <a href="contact.html">Contact Us</a>
               </li>
             </ul>
           </div>
 
-          <div class="relative burger s887:hidden">
+          <div class="relative burger block s650:hidden">
             <div
               class="w-[44px] h-[33px] flex flex-col justify-between cursor-pointer hover:opacity-[80%]"
             >
@@ -56,62 +55,61 @@
               <div class="w-[43px] h-[6px] bg-mbg-primary"></div>
               <div class="w-[43px] h-[6px] bg-mbg-primary"></div>
             </div>
-            <div
-              class="absolute md:hidden bg-white shadow-md shadow-gray-300 shad z-50 top-[36px] right-[0px] w-[340px] flex justify-end items-end pr-5 hidden burger-nav"
-            >
-              <ul
-                class="flex flex-col font-semibold text-[20px] text-mbg-secondary items-end my-[20px] relative"
-              >
-                <li class="nav"><a href="index.html">Home</a></li>
-                <li class="nav"><a href="features.html">Features</a></li>
-                <li class="nav"><a href="about.html">About Us</a></li>
-                <li class="nav">
-                  <a href="">Contact Us</a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
     </nav>
-
+    <div
+      class="fixed w-full s650:hidden bg-white shadow-md shadow-slate-300 z-50 top-[70px] w-[340px] flex justify-end items-end pr-5 hidden burger-nav"
+    >
+      <ul
+        class="flex flex-col font-semibold text-[20px] text-mbg-secondary items-end my-[20px] relative"
+      >
+        <li class="nav"><a href="index.html">Home</a></li>
+        <li class="nav"><a href="features.html">Features</a></li>
+        <li class="nav"><a href="about.html">About Us</a></li>
+        <li class="nav">
+          <a href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
     <!-- main -->
     <main class="px-10 s1105:px-0 mx-auto w-full s1105:w-[1105px]">
       <section
-        class="w-full h-auto flex flex-col items-center min-w-[320px] s1000:mx-auto mt-[100px] s700:mt-[150px]"
+        class="w-full h-auto flex flex-col items-center min-w-[320px] s1000:mx-auto mt-[75px] s700:mt-[150px]"
       >
-        <h1>Contact Us</h1>
+        <h1 class="font-extrabold">Contact Us</h1>
         <div class="mt-[45px]">
           <form
             action=""
             method="post"
             class="flex flex-col text-[23px] w-[320px] s550:w-[524px]"
           >
-            <label for="" class="font-semibold mb-10">Name</label>
+            <label for="" class="font-semibold mb-[5px]">Name</label>
             <input
               type="text"
               class="w-full s550:h-[75px] h-[50px] border-2 border-[#b3cee5] rounded-[10px] mb-20 s550:mb-30 hover:border-[#71b6f3] focus:outline-[#71b6f3]"
             />
 
-            <label for="" class="font-semibold mb-10">Email</label>
+            <label for="" class="font-semibold mb-[5px]">Email</label>
             <input
               type="text"
               class="w-full s550:h-[75px] h-[50px] border-2 border-[#b3cee5] rounded-[10px] mb-20 s550:mb-30 hover:border-[#71b6f3] focus:outline-[#71b6f3]"
             />
 
-            <label for="" class="font-semibold mb-10">Phone</label>
+            <label for="" class="font-semibold mb-[5px]">Phone</label>
             <input
               type="text"
               class="w-full s550:h-[75px] h-[50px] border-2 border-[#b3cee5] rounded-[10px] mb-20 s550:mb-30 hover:border-[#71b6f3] focus:outline-[#71b6f3]"
             />
 
-            <label for="" class="font-semibold mb-10">Industry</label>
+            <label for="" class="font-semibold mb-[5px]">Industry</label>
             <input
               type="text"
               class="w-full s550:h-[75px] h-[50px] border-2 border-[#b3cee5] rounded-[10px] mb-20 s550:mb-30 hover:border-[#71b6f3] focus:outline-[#71b6f3]"
             />
 
-            <label for="" class="font-semibold mb-10">Message</label>
+            <label for="" class="font-semibold mb-[5px]">Message</label>
             <textarea
               name=""
               id=""
@@ -128,7 +126,7 @@
         </div>
       </section>
 
-      <section class="mt-[180px]">
+      <section class="mt-[130px]">
         <div class="text-center flex flex-col items-center">
           <h3 class="mb-10">Amsterdam office</h3>
           <p class="mb-[50px]">
@@ -150,7 +148,7 @@
       class="w-screen xl:h-[303px] h-[225px] bg-[#020202] opacity-90 mt-[80px] sm:mt-[250px] m-0 flex justify-center"
     >
       <div
-        class="s1440:mx-auto margin-x flex flex-col justify-start xl:flex-row xl:justify-between xl:items-start s1440:w-[1064px]"
+        class="s1440:mx-auto margin-x flex flex-col justify-start xl:flex-row xl:justify-between xl:items-start s1440:w-[1064px] overflow-y-hidden"
       >
         <div class="w-full h-full flex flex-col xl:items-center mt-20">
           <div class="flex justify-center flex-col items-center w-full">
@@ -230,18 +228,7 @@
       0
     </p> -->
 
-    <script>
-      const a1 = document.querySelector(".stickk");
-      const a3 = document.querySelector(".stickkk");
-      window.addEventListener("resize", function () {
-        const b2 = window.innerWidth;
-        a1.innerText = b2;
-      });
-      window.addEventListener("scroll", () => {
-        const b3 = window.scrollY;
-        a3.innerText = b3;
-      });
-    </script>
+    <script src="nav.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
